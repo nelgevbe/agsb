@@ -576,8 +576,8 @@ Hysteria2 管理工具
     --password PWD    指定密码
 
 示例:
-    python3 hysteria2_no_root.py install                   # 基本安装
-    python3 hysteria2_no_root.py install --port 12345      # 指定端口
+    python3 hysteria2_no_root.py 在stall                   # 基本安装
+    python3 hysteria2_no_root.py 在stall --port 12345      # 指定端口
     python3 hysteria2_no_root.py status                    # 查看状态
     python3 hysteria2_no_root.py del                       # 删除安装
 """)
@@ -601,7 +601,7 @@ def main():
     elif args.command == 'install':
         # 默认配置
         port = args.port if args.port else 59999
-        password = args.password if args.password else "123qwe!@#QWE"
+        password = args.password if args.password else "I0z6&klBnUqln63X*UcP"
         
         # 获取IP地址
         server_address = args.ip if args.ip else get_ip_address()
